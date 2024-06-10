@@ -1,0 +1,28 @@
+.footer {
+    .social-links {
+        background-color: #212121;
+    }
+
+    .footer-links hr {
+        width: 80px;
+        height: 5px;
+    }
+
+    .copyright-info {
+        background-color: #212121;
+    }
+
+    .back-to-top {
+        background-color: $secondary;
+        position: fixed;
+        right: 1.8rem;
+        bottom: 1.8rem;
+        width: 3rem;
+        height: 3rem;
+
+        i {
+            color: $white;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.comments {
+    @include gradient;
+}
+
+.carousel-card {
+    background-color: rgba($white, 0.8);
+}
+
+.carousel-buttons i{
+   line-height: 0;
+   font-size: 1.5rem; 
+}

@@ -1,0 +1,13 @@
+@mixin gradient {
+    background: $primary;
+    background: -webkit-linear-gradient(
+        to right,
+        $primary,
+        $secondary
+    );/*Chrome 10-25, Safari 5.1-6*/
+    background: linear-gradient(
+        to right,
+        $primary,
+        $secondary
+    );/*@#C, *E 10+/ Edge, Firefox 16+, Chrome, Opera 12+, Safari 7+ */
+}

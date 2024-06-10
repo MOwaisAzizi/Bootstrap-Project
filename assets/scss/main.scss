@@ -1,0 +1,32 @@
+// custom variable
+$primary:  #fe8c00;
+$secondary:  #f83600;
+
+
+//Create you own map
+$custom-colors:(
+    "red-dark": #900,
+    "red-light": rgb(244, 102, 102)
+);
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors );
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+ 
+// Import App
+@import './components/mixins';
+@import './components/buttons';
+@import './components/heading-line'; 
+@import './fonts';
+@import './navbar'; 
+@import './intro'; 
+@import './services'; 
+@import './comments'; 
+@import './faq';
+@import './portfolio';
+@import './footer';
